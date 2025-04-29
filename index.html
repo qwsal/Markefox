@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markefox</title>
+  <link rel="icon" href="images/markefox-logo.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100..700&family=Kanit:wght@100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Source+Code+Pro:wght@200..900&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+  
+  <!-- Fonts and Scripts -->
+  <script src="https://kit.fontawesome.com/033e5cb20d.js" crossorigin="anonymous" defer></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+  <script src="scripts.js" defer></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <a href="/"><img src="images/markefox-logo.png" alt="Logo" class="logo"></a>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <!-- Opening Section. -->
+  <section class="first-section">
+    <div class="heading-primary">
+      <h1><span class="auto-type">HEY, WE'RE MARKEFOX</span></h1>
+      <p class="description">
+        An ambitious team of young people, willing to give their best to help you create your marketing strategy.
+      </p>
+      <a href="#projects" class="projects-button">PROJECTS</a>
+    </div>
+
+    <!-- Partners -->
+    <div class="partners-container hidden">
+      <div class="partner">
+        <a href="https://evrofaktura.bg/bg/" target="_blank">
+          <img src="images/partners1.png" alt="Partner Logo" class="partner-logo">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="about-text hidden">
+        <h1>About Markefox</h1>
+        <p>We are a passionate team of young professionals dedicated to helping you build successful marketing strategies.
+        Our mission is to blend creativity, technology, and strategic thinking to drive measurable growth for your business.</p>
+        <p>At Markefox, your vision becomes our priority. Together, we transform ideas into results.</p>
+      </div>
+  
+      <div class="about-image hidden">
+        <img src="images/test.jpg" alt="About Markefox">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Button and Form -->
+  <div class="contact-container hidden">
+    <button id="contact-button">Have Questions?</button>
+    <div id="contact-form">
+      <form>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Question" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
